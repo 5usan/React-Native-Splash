@@ -10,7 +10,7 @@ function App() {
 
     init().finally(async () => {
       RNBootSplash.hide({duration: 250, fade: true});
-      console.log('Bootsplash has been hidden successfully');
+      console.log('Bootsplash has been hidden successfully'); 
     });
   }, []);
 
